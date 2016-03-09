@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meteo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="pressVal">000.0</string>
+    <string name="iTempVal">0.0</string>
+    <string name="hummVal">0</string>
+    <string name="oTempVal">0.0</string>
+    
+    <string name="pressLbl">PRESSURE</string>
+    <string name="tempeLbl">TEMPERATURE</string>
+    <string name="hummLbl">HUMMIDITY</string>
+    <string name="indoor">INDOOR</string>
+    <string name="outdoor">OUTDOOR</string>
+    <string name="tempUnit">\u00B0C</string>
+    <string name="hummUnit">%</string>
+    <string name="pressUnit">hPa</string>
+   
+	<color name="white">#FF0000</color>
+	
+	 <string name="refresh">Refresh</string>
+
+</resources>

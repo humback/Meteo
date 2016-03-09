@@ -1,0 +1,35 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+         <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryDark">@color/my_primary_dark</item> 
+        <item name="android:textColorPrimary">@color/my_primary_text</item> 
+        <item name="android:textColorSecondary">@color/my_secondary_text</item> 
+        <item name="colorAccent">@color/my_accent</item>
+        <item name="android:textViewStyle">@style/Widget.TextView.Custom</item>
+        
+        <item name="colorButtonNormal">@color/button_color</item>
+    </style>
+    <style name="Widget.TextView.Custom" parent="android:Widget.TextView">
+     <item name="android:textColor">@color/gray</item>
+    </style>
+ <style name="AppToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+       <item name="colorPrimary">@color/my_primary</item>
+       
+       <item name="android:textColorPrimary">@color/my_primary_text</item> 
+       <item name="android:textColorSecondary">@color/my_secondary_text</item> 
+       <item name="android:textColor">@color/my_primary_text</item>
+       <item name="android:colorBackground">@color/light_blue</item>
+       <item name="actionMenuTextColor">@color/my_primary_text</item>
+    
+</style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

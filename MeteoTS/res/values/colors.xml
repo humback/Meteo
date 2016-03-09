@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+  	<color name="window_background">#FFF5F5F5</color>
+  	
+  	
+  <color name="my_primary">#455A64</color>
+  <color name="my_primary_dark">#263238</color>
+  <color name="my_primary_light">#E1BEE7</color>
+  <color name="my_accent">#FF5722</color>
+  <color name="my_primary_text">#ffffff</color>
+  	<color name="my_secondary_text">#ffffff</color>
+  <color name="my_icons">#FFFFFF</color>
+  <color name="my_divider">#B6B6B6</color>
+
+  	
+  	<color name="button_color">#2196F3</color>
+  	
+  	<color name="gray">#455A64</color>
+  	<color name="light_gray">#dadada</color>
+  	
+  	<color name="light_blue">#77BEF5</color>
+  	<color name="czerwony">#ff0000</color>
+  	<color name="zielony">#00ff00</color>
+  	
+  	<color name="range_green">#B4F200</color>
+  	<color name="range_yellow">#FFC000</color>
+  	<color name="range_red">#FF3100</color>
+  	 <item name="darkorange" type="color">#FFFF8800</item>
+  	 <item name="granat" type="color">#19385E</item>
+</resources>

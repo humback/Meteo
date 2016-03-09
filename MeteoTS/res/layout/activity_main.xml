@@ -1,0 +1,244 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="com.example.meteots.MainActivity" >
+    
+     <!-- <android.support.v7.widget.Toolbar
+         android:id="@+id/toolbar"
+         android:layout_width="match_parent"
+         
+         android:layout_height="?attr/actionBarSize"
+		 android:background="?attr/colorPrimary"
+		 android:theme="@style/AppToolbarTheme"
+		 
+		 /> -->
+	<include layout="@layout/toolbar_shadow" />
+
+       <TableLayout
+           android:id="@+id/tableLayout1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="@dimen/abc_action_bar_default_height_material" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/indoor"
+                 />
+
+        </TableRow>
+
+        <View
+            android:id="@+id/primerdivisor"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#19385E" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/iTempLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/iTempVal"
+                android:layout_alignRight="@+id/iTempVal"
+                android:text="@string/tempeLbl"
+                
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/iTempVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/iTempVal"
+                
+                android:textSize="70sp" />
+
+            <TextView
+                android:id="@+id/iTempUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/iTempVal"
+                android:layout_toRightOf="@id/iTempVal"
+                android:text="@string/tempUnit"
+                
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/iHummLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/iHummVal"
+                android:layout_alignRight="@+id/iHummVal"
+                android:text="@string/hummLbl"
+                
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/iHummVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_toLeftOf="@+id/iHummUnit"
+                android:layout_toStartOf="@+id/iHummUnit"
+                android:text="@string/hummVal"
+                
+                android:textSize="70sp" />
+
+            <TextView
+                android:id="@+id/iHummUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/hummUnit"
+                
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+	<TableRow
+	    android:id="@+id/tableRow4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	    <TextView
+	        android:id="@+id/textView8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginStart="5dp"
+	        android:text="@string/outdoor"
+	         />
+
+	</TableRow>
+
+	<View
+	    android:id="@+id/primerdivisor1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#19385E" />
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	    <TextView
+	        android:id="@+id/oTempLbl"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignEnd="@+id/oTempVal"
+	        android:layout_alignRight="@+id/oTempVal"
+	        android:text="@string/tempeLbl"
+	        
+	        android:textSize="12sp" />
+
+	    <TextView
+	        android:id="@+id/oTempVal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="7dp"
+	        android:layout_toLeftOf="@+id/oTempUnit"
+	        android:layout_toStartOf="@+id/oTempUnit"
+	        android:text="@string/oTempVal"
+	        
+	        android:textSize="70sp" />
+
+	    <TextView
+	        android:id="@+id/oTempUnit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentEnd="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginEnd="25dp"
+	        android:layout_marginRight="25dp"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/tempUnit"
+	        
+	        android:textSize="30sp" />
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+<TextView
+    android:id="@+id/pressLbl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/pressVal"
+    android:layout_alignRight="@+id/pressVal"
+    android:text="@string/pressLbl"
+    
+    android:textSize="12sp" />
+
+			<TextView
+			    android:id="@+id/pressVal"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginStart="5dp"
+			    android:layout_marginTop="7dp"
+			    android:layout_toLeftOf="@+id/presspUnit"
+			    android:layout_toStartOf="@+id/presspUnit"
+			    android:text="@string/pressVal"
+			    
+			    android:textSize="70sp" />
+
+			<TextView
+			    android:id="@+id/presspUnit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentEnd="true"
+			    android:layout_alignParentRight="true"
+			    android:layout_marginEnd="5dp"
+			    android:layout_marginRight="5dp"
+			    android:layout_marginTop="5dp"
+			    android:text="@string/pressUnit"
+			    
+			    android:textSize="30sp" />
+
+			 <WebView
+			     android:id="@+id/webView1"
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			      android:scrollbars="none"
+			      
+			     android:layout_below="@id/pressVal" />
+
+			
+
+	</RelativeLayout>
+
+
+
+    </TableLayout>
+
+      <TextView
+          android:id="@+id/date"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentEnd="true"
+          android:text=""
+          android:textSize="12sp" />
+
+    </RelativeLayout>
